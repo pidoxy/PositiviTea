@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "PositiviTea",
+    "description": "This extensions educates those on mental illnesses and gives you a nice inspiring quote :)",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "/popup-js/icon.png",
+        "default_popup": "popup.html"
+    },
+    "icons" : {
+        "64" : "/popup-js/icon.png"
+    }
+}

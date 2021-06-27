@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PositiviTea - Let Your Mind Rest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> -->
+                <div class="d-lg-none">
+                    <img class="icon" src="./svgs/app-indicator.svg" alt="indicator" srcset="">
+                </div>
+                <div class=" d-lg-none">
+                    <img class="icon" src="./svgs/bell.svg" alt="notification" srcset="">
+                </div>
+                <!-- </ul> -->
+                <a class="d-sm-none navbar-brand text-end m-0" style="width: 40%;" href="#">M Y<img class="nav-img"
+                        src="./svgs/download-removebg-preview.svg" alt="user image" srcset=""></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="px-3">
+                            <img class="icon d-none d-lg-block" src="./svgs/app-indicator.svg" alt="indicator"
+                                srcset="">
+                        </li>
+                        <li class="px-3">
+                            <img class="icon d-none d-lg-block" src="./svgs/bell.svg" alt="notification" srcset="">
+                        </li>
+                    </ul>
+
+                </div>
+                <a class="d-none d-md-block m-0 text-end navbar-brand" href="#">Moeng Yeo-Jin<img class="nav-img"
+                        src="./svgs/download-removebg-preview.svg" alt="user image" srcset=""></a>
+
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- main side bar  -->
+
+    <!-- <div class="row"> -->
+    <div class="row">
+        <div class="col-2 d-flex flex-column align-items-stretch py-5 mb-0 flex-shrink-0 bg-teal" style="width: 80px;">
+
+            <div class="list-group list-group-flush side-nav mb-5 pb-5 border-bottom scrollarea">
+                <ul class="nav nav-flush flex-column text-center">
+                    <li class="nav-item mb-3 py-5">
+                        <a href="#" class="nav-link active pb-3 border-bottom" aria-current="page" title=""
+                            data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                            <img src="svgs/brain.svg" alt="brain icon">
+                        </a>
+                    </li>
+                    <li class="nav-item mb-3 py-5">
+                        <a href="#" class="nav-link pb-3 border-bottom" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Dashboard">
+                            <img src="svgs/book.svg" alt="book icon">
+                        </a>
+                    </li>
+                    <li class="nav-item mb-3 py-5" id="settings">
+                        <a href="#" class="nav-link py-3 mb-1 border-bottom" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Customers">
+                            <img src="svgs/settings.svg" alt="settings icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-9">
+            <div class="container">
+                <h3 class=" py-5 ps-5 text-center">1: 12 PM Sunday 6/27</h3>
+                <div class="row px-5 mx-5">
+                    <img class="col-4 mx-3 emoji" src="svgs/emotions/neutral.svg
+                    " alt="emoji" srcset="">
+                    <img class="col-4 emoji" src="svgs/emotions/sad.svg" alt="emoji" srcset="">
+                    <img class="col-4 emoji" src="svgs/emotions/smile.svg" alt="emoji" srcset="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+
+    <p id="instructions">tasks be here</p>
+    <p id="HButton">Happy</p>
+    <p id="SButton">Sad</p>
+    <p id="NButton">Neutral</p>
+    <p id="taskDisplay1">E</p>
+    <p id="cb1">N</p>
+    <p id="taskDisplay2">E</p>
+    <p id="cb2">N</p>
+    <p id="taskDisplay3">E</p>
+    <p id="cb3">N</p>
+    <script src="task.js"></script>
+
+    <div class="navbar fixed-bottom justify-content-center navbar-light bg-light">
+        <!-- Quote -->
+        <div class="pb-2 pt-1 text-center">"This is a test quote to see how much text can fit This is a test quote to
+            see how much text
+            can fit"</div>
+        <!-- icon -->
+        <div class="text-center ico">Icons made by <a class="ico" href="https://www.flaticon.com/authors/smashicons"
+                title="Smashicons">Smashicons</a> from <a class="ico" href="https://www.flaticon.com/"
+                title="Flaticon">www.flaticon.com</a></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
